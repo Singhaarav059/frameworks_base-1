@@ -4411,13 +4411,6 @@ public final class Settings {
         public static final String SYSTEM_THEME_STYLE = "system_theme_style";
 
         /**
-         * whether to enable or disable vibration on succesful fingerprint auth
-         *
-         * @hide
-         */
-        public static final String FINGERPRINT_SUCCESS_VIB = "fingerprint_success_vib";
-
-        /**
          * Whether to show VoLTE icon or not
          * @hide
          */

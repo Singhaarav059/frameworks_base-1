@@ -5359,9 +5359,8 @@ public final class Settings {
             PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_UNITS);
             PRIVATE_SETTINGS.add(NETWORK_TRAFFIC_SHOW_UNITS);
             PRIVATE_SETTINGS.add(DISPLAY_CUTOUT_HIDDEN);
-            PRIVATE_SETTINGS.add(FP_SUCCESS_AUTH_VIB);
             PRIVATE_SETTINGS.add(FORCE_FULLSCREEN_CUTOUT_APPS);
-
+<<<<<<< HEAD
        }
 
         /**
@@ -5370,7 +5369,12 @@ public final class Settings {
          * @hide
          */
         public static final String POWERMENU_TORCH = "powermenu_torch";
+=======
+            PRIVATE_SETTINGS.add(BATTERY_LIGHT_LOW_BLINKING);
+            PRIVATE_SETTINGS.add(INCALL_FEEDBACK_VIBRATE);
+            PRIVATE_SETTINGS.add(FP_SUCCESS_AUTH_VIB);
         }
+>>>>>>> 12ef218... Fingerprint authentication vibration [1/2]
 
         /**
          * These are all public system settings

@@ -4417,6 +4417,10 @@ public final class Settings {
          */
         public static final String FINGERPRINT_SUCCESS_VIB = "fingerprint_success_vib";
 
+        /** @hide */
+        public static final Validator FP_SUCCESS_AUTH_VIB_VALIDATOR =
+                BOOLEAN_VALIDATOR;
+
         /**
          * Whether to show VoLTE icon or not
          * @hide
